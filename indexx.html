@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <img src="panda.jpg">
+    <hr>
+    <form>
+      <button type="button" onclick="javascript:alert('Implement logic to create new project')">Create a new Project</button>
+      Select the project you wish to work on
+      <select name="cars">
+        <option value="254MainCondo">254 main street condo building</option>
+        <option value="RoyalBankHelpDesk">Build new help desk workflow for Royal Bank</option>
+        <option value="kraft">Purchase property in Winnipeg for new kraft food office</option>
+        <option value="trainingProgram">Create training program for the car leasing company</option>
+      </select>
+    </form>
+    We are using Node.js <span id="node-version"></span>,
+    Chromium <span id="chrome-version"></span>,
+    and Electron <span id="electron-version"></span>. 
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>
